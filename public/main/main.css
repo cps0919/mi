@@ -1,0 +1,287 @@
+.header {
+    background: #333;
+    overflow: hidden;
+    color: #b0b0b0;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+.header .header-lft {
+    float: left;
+}
+
+.header ul li {
+    float: left;
+}
+
+.header ul li:first-child {
+    margin-left: 0;
+}
+
+.header ul li span:last-child {
+    margin: 0 5px;
+    color: #424242;
+}
+.header ul li a{
+    color:#b0b0b0;
+    text-decoration: none;
+}
+.header ul li a:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.header .header-rig {
+    float: right;
+}
+
+.header .header-rig ul {
+    margin-right: 60px;
+    background: #333;
+}
+
+.navs {
+    display: flex;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.nav .brand {
+    flex: 2;
+}
+.nav .brand img{
+    vertical-align: middle;
+}
+.nav .navlist {
+    flex: 6;
+}
+
+.nav .navlist ul li {
+    float: left;
+    margin: 0 10px;
+}
+
+.nav .navlist ul li:hover {
+    color: #ff6700;
+}
+
+.nav .serach {
+    flex: 2;
+    padding: 26px 5px;
+
+}
+
+.nav .serach .inputs {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border: 1px solid rgba(7,17,27,0.1);
+}
+
+.nav .serach .inputs .inputs-lft {
+    flex: 8;
+    border-right: 1px solid rgba(7,17,27,0.1);
+}
+
+.nav .serach .inputs .inputs-rig {
+    flex: 2;
+
+}
+
+.session .banner {
+    position: relative;
+}
+
+.session .banner .banner-lft {
+    width: 234px;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+
+.session .banner .banner-lft > ul {
+    padding: 21px 0;
+    background: aliceblue;
+    position: relative;
+}
+
+.session .banner .banner-lft > ul li {
+    padding: 13px 20px;
+}
+
+.session .banner .banner-lft > ul li span {
+    position: absolute;
+    right: 20px;
+}
+
+.session .banner .banner-lft > ul li:hover {
+    background: #ff6700;
+}
+.banner-shows{
+    display: none;
+}
+.session .banner .banner-lft > ul li:nth-child(n):hover .banner-shows:nth-child(n) {
+    display: block;
+}
+
+.session .banner .banner-lft .banner-shows {
+    position: absolute;
+    left: 234px;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: white;
+}
+.session .banner .banner-rig {
+    height: 510px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.session .banner .banner-rig ul {
+    width: 7374px;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.session .banner .banner-rig ul li {
+    width: 1229px;
+    height: 100%;
+    float: left;
+}
+
+.session .banner .banner-rig ul li img {
+    width: inherit;
+    height: inherit;
+}
+
+.session .select ul {
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-between;
+}
+
+.session .select ul li {
+    flex: 0 0 300px;
+    width: 300px;
+}
+
+.session .select ul li img {
+    width: inherit;
+    height: inherit;
+}
+.session .flash{
+    overflow: hidden;
+}
+
+.session .flash .flash-top {
+    position: relative;
+}
+
+.session .flash .flash-top .flash-btn {
+    position: absolute;
+    right: 0;
+    top:0
+}
+.session .flash .flash-top .flash-btn .btn-lft,.session .flash .flash-top .flash-btn .btn-rig{
+    display: inline-block;
+    border:1px solid rgba(7,17,27,0.1);
+    vertical-align: middle;
+    margin: 5px;
+    text-align: center;
+    width: 20px;
+}
+
+.session .flash ul {
+    position: relative;
+    width: 1920px;
+    overflow: hidden;
+}
+
+.session .flash ul li {
+    width: 285px;
+    float: left;
+    margin-right: 10px;
+    background: #fafafa;
+    overflow: hidden;
+    height: 376px;
+}
+.desc1{
+    position: relative;
+    background: red;
+    top: 0;
+
+}
+.session .flash ul li:hover .desc1{
+    top:-87px;
+    transition: all 0.2s linear;
+}
+.session .flash ul li .desc{
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 0;
+}
+.session .flash ul li .desc span{
+    color: rgba(7,17,27,0.5);
+}
+.session .flash ul li .desc .price{
+    margin: 10px 0;
+}
+.session .flash ul li .desc .price .newsprice{
+    color: #ff6700;
+}
+.session .flash ul li .desc .price .oldprices{
+    text-decoration: line-through;
+}
+.session .flash ul li img {
+    width: inherit;
+}
+.session .blank{
+    margin: 20px 0;
+}
+.session .blank img{
+    width: 100%;
+}
+.session .mobile-content{
+    display: flex;
+    height: 614px;
+}
+.session .mobile-content .mobile-lft{
+    flex: 1;
+    margin-right: 15px;
+}
+.session .mobile-content .mobile-lft img{
+    width: 234px;
+}
+.session .mobile-content .mobile-rig{
+    flex: 1;
+}
+.session .television{
+    height: 120px;
+    margin: 20px 0;
+}
+.session .television img{
+    height: inherit;
+    width:100%;
+}
+.footer{
+    display: flex;
+    border-bottom: 1px solid rgba(7,17,27,0.1);
+    margin-bottom: 20px;
+}
+.footer-item{
+    flex: 1;
+    border-right: 1px solid rgba(7,17,27,0.1);
+    text-align: center;
+    margin: 20px 0;
+    color: rgba(7,17,27,0.5);
+}
+.footer-item:hover{
+    color: #ff6700;
+}
+.nimei:hover .niemi1{
+    color: red;
+}
